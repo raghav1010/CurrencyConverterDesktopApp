@@ -1,0 +1,50 @@
+<html>
+
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Currency Converter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="currency.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+
+<body>
+  <div class=he1>$ Currency </div>
+  <div class=he2>Converter</div>
+<div class="row">
+  <div class="base"">
+    <label class="basecur" for="basecur">Base Currency </label>
+				<select id="from" class="arr2">
+					<option class="us" value="USD">US DOLLAR</option>
+					<option class="ind" value="INR">INDIAN RUPEE</option>
+					<option class="eu"value="EUR">EURO</option>
+					<option class="jp" value="JPY">YEN</option>
+				</select>
+
+    <input id="data" class="inp" type="text" required>
+    <span>Enter Value</span>
+</div>
+<div class="im">
+  <img src="cov.png" height="200px " width="200px">
+  </div>
+  <form class="subm">
+
+    <input id="cc" type="button" class="submit" value="" onclick="dummy()">
+  </form>
+
+  <div class="final"">
+    <label class="finalcur" for="finalcur">Target Currency </label>
+        <select id="to" class="arr1">
+          <option class="us" value="USD">US DOLLAR</option>
+          <option class="ind" value="INR">INDIAN RUPEE</option>
+          <option class="eu"value="EUR">EURO</option>
+          <option class="jp" value="JPY">YEN</option>
+        </select>
+
+        <input id="output" class="output" type= "button" value="0.0">
+
+
+</div>
+</body>
+</html>
