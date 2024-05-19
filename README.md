@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="cov.png" width="400" alt="logo"/>
+  <img src="[cov.png](https://github.com/raghav1010/CurrencyConverterDesktopApp/blob/master/curapp.png)" width="400" alt="logo"/>
 </p>
 
 ---
